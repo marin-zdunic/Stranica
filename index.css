@@ -1,0 +1,47 @@
+body{
+    background-color: #F1F1F1;
+    font-size: 20px;
+}
+
+.sidebar {
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.butside a {
+    
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.butside a.active {
+    background-color: #086B8E;
+    color: white;
+}
+
+.butside a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.header {
+    background-color: #086B8E;
+    padding: 20px;
+    color:white;
+    text-align: center;
+}
+.box{
+    background-color: white;
+    padding: 0.01em 16px;
+    margin: 20px 0;
+    overflow:auto;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
